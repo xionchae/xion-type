@@ -1,0 +1,13 @@
+{
+  "include": ["src/**/*.ts"],
+  "ts-node": {"esm" : true},
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist",
+    "moduleDetection": "force",
+    "skipLibCheck" : true,
+    "strict": true,
+    "strictNullChecks": false,  // null 을 엄격하게 검사하지 않겠다는 옵션 (false : 엄격하게 검사하지 않음)
+  }
+}

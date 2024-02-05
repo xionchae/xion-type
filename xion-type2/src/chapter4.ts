@@ -19,7 +19,7 @@ let user1 : User ={
   location:"seoul"
 }
 
-// 인텍스 시그니처
+// 인덱스 시그니처
 type CountryNumberCodes = {
   [key:string]:number;
   // Korea에 string을 할당할 수는 없다.
